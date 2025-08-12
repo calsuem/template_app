@@ -1,22 +1,19 @@
-# venv
+﻿# Python
+__pycache__/
+*.pyc
 .venv/
 venv/
 
-# python
-__pycache__/
-*.pyc
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/**/secrets.toml
 
-# streamlit
-.streamlit/
-
-# credentials (올리지 마세요)
-*credentials*.json
-*service*.json
-*.key
-*.pem
+# GCP key (혹시 있을 수 있는 json 키 제외)
+*.json
+!requirements.json
 
 # OS/IDE
 .DS_Store
 Thumbs.db
-.vscode/
 .idea/
+.vscode/
