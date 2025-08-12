@@ -1,0 +1,22 @@
+# venv
+.venv/
+venv/
+
+# python
+__pycache__/
+*.pyc
+
+# streamlit
+.streamlit/
+
+# credentials (올리지 마세요)
+*credentials*.json
+*service*.json
+*.key
+*.pem
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

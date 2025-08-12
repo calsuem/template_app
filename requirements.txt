@@ -1,0 +1,6 @@
+﻿streamlit>=1.33.0
+google-cloud-vision>=3.7.2
+streamlit-image-coordinates>=0.1.5
+pillow>=10.3.0
+pandas>=2.2.2
+matplotlib>=3.8.4
